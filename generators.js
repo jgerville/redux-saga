@@ -49,11 +49,11 @@ class myIterator {
 
 // all of that means that we can use a for..of loop on the function a generator returns!
 // e.g.
-let gen = generate();
-let arrayOfValues = [];
-for (const step of gen) {
-  arrayOfValues.push(step);
-}
+// let gen = generate();
+// let arrayOfValues = [];
+// for (const step of gen) {
+//   arrayOfValues.push(step);
+// }
 // in this case, the array will contain all of the values of each step.
 
 
@@ -96,5 +96,8 @@ bag.add(3);
 
 // this works thanks to the generator we used in the Symbol.iterator class method
 for (let e of bag) {
-    console.log(e);
+    // console.log(e);
 }
+
+
+
